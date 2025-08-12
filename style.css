@@ -13,12 +13,12 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .grid {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  width: 415px;
+  width: 100%;
 }
 .left, .right {
   position: relative;
